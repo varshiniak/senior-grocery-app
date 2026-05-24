@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Georgia', serif;
+  background-color: #faf8f3;
+  color: #2c1a0e;
+  line-height: 1.6;
+}
+
+a {
+  color: #d4a574;
+  text-decoration: none;
+}
+
+button {
+  font-family: 'Georgia', serif;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+}
